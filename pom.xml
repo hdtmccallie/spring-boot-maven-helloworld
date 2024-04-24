@@ -6,13 +6,13 @@
 	<parent>
 		<groupId>com.herodevs.nes.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.13-spring-boot-2.4.13k</version>
+		<version>2.7.18-spring-boot-2.7.19a</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<!--	<parent>-->
 	<!--		<groupId>org.springframework.boot</groupId>-->
 	<!--		<artifactId>spring-boot-starter-parent</artifactId>-->
-	<!--		<version>2.4.13</version>-->
+	<!--		<version>2.7.18</version>-->
 	<!--		<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
 	<!--	</parent>-->
 	<groupId>com.example</groupId>
@@ -28,45 +28,45 @@
 			<!--			<groupId>org.springframework.boot</groupId>-->
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 		</dependency>
 
 		<dependency>
 			<!--			<groupId>org.springframework.boot</groupId>-->
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 		</dependency>
 		<dependency>
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 		</dependency>
 		<dependency>
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 		</dependency>
 		<!-- <dependency>
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 		</dependency>
 		<dependency>
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 		</dependency>
 		<dependency>
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
-			<version>2.4.13-spring-boot-2.4.13k</version>
+			<version>2.7.18-spring-boot-2.7.19a</version>
 		</dependency> -->
 	</dependencies>
 
@@ -103,7 +103,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<!--				<groupId>com.herodevs.nes.springframework.boot</groupId>-->
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>2.4.13</version>
+				<version>2.7.18</version>
 			</plugin>
 		</plugins>
 	</build>
