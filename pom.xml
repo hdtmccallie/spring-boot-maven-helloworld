@@ -53,7 +53,7 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 			<version>2.4.13-spring-boot-2.4.13k</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>2.4.13-spring-boot-2.4.13k</version>
@@ -67,7 +67,7 @@
 			<groupId>com.herodevs.nes.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 			<version>2.4.13-spring-boot-2.4.13k</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<repositories>
