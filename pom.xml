@@ -76,29 +76,9 @@
 	</dependencies>
 
 	<repositories>
-		<!-- <repository>
+		<repository>
 			<id>github</id>
 			<url>https://maven.pkg.github.com/neverendingsupport/spring-boot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository> -->
-		<!-- <repository>
-			<id>nes</id>
-			<url>https://registry.dev.nes.herodevs.com/maven/neverendingsupport/spring-boot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository> -->
-		<repository>
-			<id>nes</id>
-			<url>http://localhost:3010/maven/neverendingsupport/spring-boot</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -106,10 +86,30 @@
 				<enabled>true</enabled>
 			</releases>
 		</repository>
+		<!-- <repository>
+			<id>nes</id>
+			<url>https://registry.dev.nes.herodevs.com/maven/com/herodevs/nes/springframework/boot/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository> -->
+		<!-- <repository>
+			<id>nes</id>
+			<url>http://localhost:3010/maven</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository> -->
 	</repositories>
 
 	<pluginRepositories>
-		<!-- <pluginRepository>
+		<pluginRepository>
 			<id>github</id>
 			<url>https://maven.pkg.github.com/neverendingsupport/spring-boot</url>
 			<snapshots>
@@ -118,10 +118,20 @@
 			<releases>
 				<enabled>true</enabled>
 			</releases>
+		</pluginRepository>
+		<!-- <pluginRepository>
+			<id>nes</id>
+			<url>https://registry.dev.nes.herodevs.com/maven/com/herodevs/nes/springframework/boot/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
 		</pluginRepository> -->
 		<!-- <pluginRepository>
 			<id>nes</id>
-			<url>https://registry.dev.nes.herodevs.com/maven/neverendingsupport/spring-boot</url>
+			<url>http://localhost:3010/maven</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -129,16 +139,6 @@
 				<enabled>true</enabled>
 			</releases>
 		</pluginRepository> -->
-		<pluginRepository>
-			<id>nes</id>
-			<url>http://localhost:3010/maven/neverendingsupport/spring-boot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</pluginRepository>
 	</pluginRepositories>
 
 
@@ -150,6 +150,18 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>2.7.18</version>
 			</plugin>
+			<!-- <plugin>
+				<groupId>org.owasp</groupId>
+				<artifactId>dependency-check-maven</artifactId>
+				<version>9.1.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin> -->
 		</plugins>
 	</build>
 
